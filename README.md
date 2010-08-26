@@ -1,6 +1,10 @@
 Example to show a bug in Cloud Zoom
 ===================================
 
+The issue
+---------
+Cloud Zoom makes an unnecessary HTTP request to the root of your current folder
+
 Steps to reproduce
 ------------------
 - Put this folder somewhere served by a webserver
